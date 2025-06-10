@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!-- saved from url=(0062)file:///C:/Users/Fam.%20Cruz/Documents/cultura%20digital2.html -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CBTIS 101</title>
+  <link rel="stylesheet" href="style.css">
+   <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #5e071def;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #ffd4d4;
+    }
+
+    .logo img {
+      height: 50px;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    section {
+      margin-bottom: 40px;
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+
+    section.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    
+
+    button {
+      background-color: #0077cc;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #005fa3;
+    }
+
+    footer {
+      background-color: #ddd;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    .img-container {
+      margin-top: 15px;
+    }
+
+    .img-container img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+  </style>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const sections = document.querySelectorAll("section");
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+          }
+        });
+      }, {
+        threshold: 0.2
+      });
+
+      sections.forEach(section => {
+        observer.observe(section);
+      });
+    });
+  </script>
+</head>
+<body>
+
+  <header>
+    
+    <div class="logo">
+      <img src="Imagenes/Imagotipo_DGETI_ok.png" alt="Logo CBTIS 101" />
+    </div>
+  </header>
+</head>
+<body>
+
+  <header>
+    <h1>Bienvenido a CBTIS 101 Motzorongo Ver.</h1>
+  </header>
+
+  <main>
+    
+    <h1 class="title">INICIO</h1>
+    <h3 class="txt">El plantel del CBTIS 101 o Cetis 101 es un centro de educación media superior en México que forma parte del subsistema de Centros de Bachillerato Tecnológico Industrial y de Servicios (Cetis) de la Dirección General de Educación Tecnológica Industrial (DGETI). os CBTis fueron creados en la década de 1960 con el objetivo de ofrecer educación media superior en áreas tecnológicas y científicas. Estos centros de educación tienen como misión formar técnicos y profesionales capacitados para incorporarse al mercado laboral o continuar sus estudios en instituciones de educación superior.</h3>
+    <img src="Imagenes/490310269_1127623895831361_3826086099087311626_n.jpg" widht="300" height="500"/>
+    <h2 class="sub">¿Qué ofrecemos en el CBTIS 101?</h2>
+    <p class="txt">El CBTIS 101 en Veracruz es una institución de educación técnica especializada que ofrece una formación práctica y enfocada en el mercado laboral. Algunas de sus características incluyen:</p>
+
+<p>- Carreras técnicas: Cuenta con 10 programas de nivel técnico, como Técnico en Laboratorio Clínico, Técnico en Máquinas-Herramienta y Técnico en Mecánica.</p>
+<p>- Enfoque práctico: Su enseñanza está diseñada para que los estudiantes adquieran habilidades aplicables en el campo laboral.</p>
+<p>- Infraestructura moderna: Dispone de instalaciones bien equipadas para una formación de calidad.</p>
+<p>- Vínculos empresariales: Tiene conexiones con empresas locales y nacionales, lo que facilita prácticas profesionales y oportunidades de empleo.</p>
+<p>- Apoyo integral: Ofrece programas de bienestar emocional, actividades deportivas y grupos estudiantiles para fomentar la convivencia.</p>
+<h2 class="sub">Aquí una mejor demostración de las Carreras Técnicas que ofrece el CBTIS 101</h2>
+<h3>- Técnico en Contabilidad: Enfocado en finanzas empresariales y toma de decisiones estratégicas.</h3>
+<img src="Imagenes/contabilidad-financiera-28410457.webp" widht="300" height="500"/>
+<h3>- Técnico en Laboratorista Clínico: Formación en análisis clínicos para respaldar diagnósticos médicos.</h3>
+<img src="Imagenes/istockphoto-1136667775-612x612.jpg" widht="300" height="500"/>
+<h3>- Técnico en Mecánica Industrial: Especialización en ensamblaje y reparación de maquinaria pesada.</h3>
+<img src="Imagenes/ilustracion-concepto-isometrico-plano-alta-tecnologia-industria-torno-cnc_18660-2658.avif" widht="300" height="500"/>
+<h3>- Técnico en Producción Industrial de Alimentos: Orientado a la producción de alimentos a gran escala con calidad y seguridad alimentaria.</h3>
+<img src="Imagenes/489752860_1125252532735164_1176669648343324106_n.jpg" widht="300" height="500"/>
+<p>Estas carreras tienen una duración aproximada de tres años y se imparten en modalidad presencial</p>
+<h2 class="sub">Si quieres saber mas sobre nuestro plantel ¡Puedes entrar aqui!</h2>
+ <a href="https://www.facebook.com/CBTIS101MOTZORONGO/?locale=es_LA">
+            <img src="Imagenes/logotipo-facebook_1080029-107.avif" 
+                 width="200"
+            
+            alt="facebook">
+        </a>
+
+
+
+  
+  </body>
+  </html>
